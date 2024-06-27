@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bmi.css">
+    <title>Bmi</title>
+</head>
+<body>
+   <section class="sc">
+    <div class="wei">
+        <div class="bm">
+            <h1>BMI</h1>
+            <p>body mass index</p>
+        </div>
+        <div class="mi">
+            <form>
+                <label>
+                    WEIGHT
+                </label>
+                <input type="number" required name="" class="weight" placeholder="75 kgs">
+            </form>
+            <form>
+                <label>
+                    HEIGHT
+                </label>
+                <input type="number" required name="" class="height" placeholder="172 cms">
+            </form>
+            <div class="bt">
+                <div class="cal">
+                    <button class="btn" onclick="calculate()">calculate</button>
+                    <h1 class="number-res">
+                        25.4 <span>BMI</span>
+                    </h1>
+                </div>
+                <label class="result"></label>
+                <button class="btn2">OVERWEIGHT</button>
+            </div>
+        </div>
+    </div>
+   </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="bmi.js"></script>
+</body>
+</html>

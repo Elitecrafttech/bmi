@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sc{
+    background-color: rgb(145, 110, 110);
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.wei{
+    display: flex;
+    align-items: center; 
+}
+.bm{
+    background-color: red;
+    height: 40vh;
+    width: 50%;
+    align-items: center;
+    box-shadow: 8px 5px 10px;
+    padding: 30px;
+}
+.bm h1{
+    color: white;
+    font-size: 90px;
+    font-weight: bolder;
+}
+.bm p{
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    width: 10vw;
+}
+.mi{
+    background-color: white;
+    height: 60vh;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+    box-shadow: 3px 2px 7px;
+}
+::placeholder{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    display: flex;
+    align-self: flex-start;
+    font-weight: bold;
+}
+input{
+    height: 50px;
+    width: 200px;
+    outline: none;
+    border-right: 0px;
+    border-top: 0px;
+    padding: 20px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.bt{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.cal h1{
+    align-self: flex-start;
+    font-size: 25px;
+}
+.btn{
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    right: 60px;
+}
+span{
+    font-size: 15px;
+}
+.btn2{
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 17px;
+    width: 14vw;
+    cursor: pointer;
+}
+.number-res{
+    position: relative;
+    left: 30px;
+}
+@media screen and (max-width:950px) {
+    .wei{
+        flex-direction: column;
+    }
+    .bm{
+        height: 44vh;
+        width: 100%;
+    }
+    .bm p{
+        width: 30vw;
+    }
+    .mi{
+        height: 67vh;
+        width: 100%;
+    }
+    .bt{
+        gap: 20px;
+    }
+    .cal{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .btn{
+        position: relative;
+        top: 0px;
+        right: 0px;
+    }
+    .number-res{
+        position: relative;
+        left: 0px;
+    }
+    .btn2{
+        width: 40vw;
+    }
+}
