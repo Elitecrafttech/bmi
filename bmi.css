@@ -116,15 +116,24 @@ span{
         flex-direction: column;
     }
     .bm{
-        height: 44vh;
+        height: 25vh;
         width: 100%;
+        padding: 10px;
+    }
+    .bm h1{
+        font-size: 65px;
     }
     .bm p{
-        width: 30vw;
+        font-size: 15px;
+        width: 20vw;
     }
+
     .mi{
-        height: 67vh;
+        height: 60vh;
         width: 100%;
+    }
+    input{
+        height: 40px;
     }
     .bt{
         gap: 20px;
